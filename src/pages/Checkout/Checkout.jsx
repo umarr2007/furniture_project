@@ -209,7 +209,7 @@ function Checkout() {
                   <span className="font-[600]">privacy policy.</span>
                 </p>
                 <div className="checkout_button flex justify-center items-center pt-[33px]">
-                  <button className="border-[1px] border-[#000] rounded-[15px] w-[318px] h-[64px]">
+                  <button className="border-[1px] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300 border-[#b88e2f] rounded-[15px] w-[318px] h-[64px]">
                     Place Order
                   </button>
                 </div>
@@ -218,7 +218,7 @@ function Checkout() {
           </div>
           <button
             onClick={() => navigate(-1)}
-            className="bg-[#b88e2f] rounded-[15px] cursor-pointer w-[318px] h-[64px] text-[#fff] text-[24px] mt-[30px] ml-[20px]"
+            className="bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  rounded-[15px] cursor-pointer w-[318px] h-[64px] text-[#fff] text-[24px] mt-[30px] ml-[20px]"
           >
             Back
           </button>

@@ -6,8 +6,10 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import { useState } from "react";
 import Modal from "./Modal";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const [opened, setOpened] = useState(false);
   return (
@@ -15,21 +17,21 @@ function Header() {
       <div className="container max-w-[1440px] m-auto mt-[40px]">
         <div className="header_wrapper flex justify-between items-center  ">
           <div className="logo">
-            <img src="/furniro.png" alt="" />
+            <img className="cursor-pointer" onClick={() => navigate("/")} src="/furniro.png" alt="" />
           </div>
           <div className="header_link  hidden sm:flex lg:gap-[70px] md:flex gap-[20px]   ">
-            <Link to={"/"} className="font-medium text-[16px] text-[#000]">
+            <Link to={"/"} className="font-medium hover:text-[#fca311] text-[16px] text-[#000]">
               Home
             </Link>
-            <Link to={"/shop"} className="font-medium text-[16px] text-[#000]">
+            <Link to={"/shop"} className="font-medium hover:text-[#fca311] text-[16px] text-[#000]">
               Shop
             </Link>
 
-            <Link className="font-medium text-[16px] text-[#000]">About</Link>
+            <Link className="font-medium hover:text-[#fca311] text-[16px] text-[#000]">About</Link>
 
             <Link
               to={"/contact"}
-              className="font-medium text-[16px] text-[#000]"
+              className="font-medium hover:text-[#fca311] text-[16px] text-[#000]"
             >
               Contact
             </Link>

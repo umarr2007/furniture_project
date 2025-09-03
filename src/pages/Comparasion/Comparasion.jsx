@@ -90,7 +90,7 @@ function Comparasion() {
                 <h3 className="font-[700] text-[24px] leading-[1.265] text-[#000]">
                   Add A Product
                 </h3>
-                <button className="rounded-[6px] mt-3 w-[242px] h-[39px] bg-[#b88e2f] font-semibold text-[14px] leading-[1.265] text-[#fff] m  ">
+                <button className="rounded-[6px] mt-3 w-[242px] h-[39px] bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  font-semibold text-[14px] leading-[1.265] text-[#fff] m  ">
                   Choose a Product
                 </button>
               </div>

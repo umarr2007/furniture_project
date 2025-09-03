@@ -17,7 +17,7 @@ function Hero() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut{" "}
                 <br /> elit tellus, luctus nec ullamcorper mattis.
               </p>
-              <button className="px-[72px] py-[25px] w-[222px] mt-[46px] h-[74px] bg-[#b88e2f] font-bold text-[16px] uppercase text-[#fff]">
+              <button className="px-[72px] py-[25px] w-[222px] mt-[46px] h-[74px] cursor-pointer bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300 font-bold text-[16px] uppercase text-[#fff]">
                 Buy Now
               </button>
             </div>

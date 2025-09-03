@@ -12,7 +12,7 @@ import Contact from "./pages/Contact/Contact";
 import ProductId from "./pages/ProductId/ProductId";
 import Checkout from "./pages/Checkout/Checkout";
 import Comparasion from "./pages/Comparasion/Comparasion";
-
+import Ranges from "./components/Range/Range";
 function App() {
   return (
     <Routes>

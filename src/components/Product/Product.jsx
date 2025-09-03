@@ -9,7 +9,7 @@ function Product() {
   };
 
   const handleAddToCart = (e) => {
-    e.stopPropagation(); 
+    e.stopPropagation();
     navigate("/cart");
   };
   return (
@@ -243,7 +243,10 @@ function Product() {
             </button>
           </div>
 
-          <div onClick={handlePage} className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden">
+          <div
+            onClick={handlePage}
+            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+          >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
             <div className="product_text pl-[16px]">
@@ -266,14 +269,21 @@ function Product() {
 
             <button
               onClick={handleAddToCart}
-              className="absolute cursor-pointer top-1/3 left-1/2 -translate-x-1/2 w-[202px] h-[48px] font-semibold text-[16px] text-[#b88e2f] bg-[#fff] px-6 py-2 rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300"
+              className="absolute cursor-pointer top-1/3 left-1/2 -translate-x-1/2 
+             w-[202px] h-[48px] font-semibold text-[16px] text-[#b88e2f] 
+             bg-[#fff] px-6 py-2 rounded-md 
+             opacity-0 group-hover:opacity-100 focus:opacity-100 active:opacity-100 
+             transition-all duration-300"
             >
               Add to Cart
             </button>
           </div>
         </div>
         <div className="show_more flex justify-center items-center mt-[32px]">
-          <button className="border-[1px] cursor-pointer  border-[#b88e2f] w-[245px] h-[48px] bg-[#fff] font-semibold text-[16px] leading-normal text-[#b88e2f]">
+          <button
+            className="border-[1px] hover:bg-[#b88e2f] hover:text-white active:bg-[#a47d28] active:text-white 
+            transition-colors duration-300 cursor-pointer hover:border-[#b88e2f]  w-[245px] h-[48px] bg-[#fff] font-semibold text-[16px] leading-normal text-[#b88e2f]"
+          >
             Show More
           </button>
         </div>

@@ -101,14 +101,17 @@ function Cart() {
                 Rs. 250,000.00
               </p>
             </div>
-            <button className="border-[1px] mt-[45px] border-[#000] rounded-[15px] w-full h-[58px] font-normal text-[20px] text-[#000]">
+            <button
+              onClick={() => navigate("/checkout")}
+              className="border-[1px] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  mt-[45px] border-[#000] rounded-[15px] w-full h-[58px] font-normal text-[20px] text-[#000]"
+            >
               Checkout
             </button>
           </div>
         </div>
         <button
           onClick={() => navigate("/")}
-          className="px-[72px] py-[25px] w-[200px] rounded-[12px] mt-[46px] h-[74px] bg-[#b88e2f] font-bold text-[16px] uppercase text-[#fff]"
+          className="px-[72px] py-[25px] w-[200px] rounded-[12px]  mt-[46px] h-[74px] bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  font-bold text-[16px] uppercase text-[#fff]"
         >
           Back
         </button>

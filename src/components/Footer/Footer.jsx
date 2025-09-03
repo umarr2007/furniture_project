@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         className="mx-auto max-w-[1240px] px-4 py-10 grid gap-8 
                    grid-cols-1 sm:grid-cols-2 md:grid-cols-4"
       >
-  <div>
+        <div>
           <h2 className="font-bold text-2xl mb-4">Funiro.</h2>
           <p className="text-gray-600 text-sm leading-relaxed">
             400 University Drive Suite 200 Coral Gables, <br />
@@ -17,11 +18,20 @@ function Footer() {
 
         <div>
           <h3 className="text-gray-400 text-sm uppercase mb-4">Links</h3>
-          <ul className="space-y-2">
-            <li className="font-medium text-black cursor-pointer">Home</li>
-            <li className="font-medium text-black cursor-pointer">Shop</li>
-            <li className="font-medium text-black cursor-pointer">About</li>
-            <li className="font-medium text-black cursor-pointer">Contact</li>
+          <ul className="space-y-2 flex flex-col">
+            <Link to="/" className="font-medium text-black cursor-pointer">
+              Home
+            </Link>
+            <Link to="/shop" className="font-medium text-black cursor-pointer">
+              Shop
+            </Link>
+            <Link className="font-medium text-black cursor-pointer">About</Link>
+            <Link
+              to="/contact"
+              className="font-medium text-black cursor-pointer"
+            >
+              Contact
+            </Link>
           </ul>
         </div>
 
@@ -48,7 +58,6 @@ function Footer() {
               placeholder="Enter Your Email Address"
               className="flex-1 outline-none text-sm placeholder-gray-400 bg-transparent"
             />
-           
           </div>
         </div>
       </div>

@@ -14,7 +14,6 @@ function ProductId() {
   const [value, setValue] = React.useState(5);
   const [count, setCount] = useState(1);
   const navigate = useNavigate();
-
   return (
     <>
       <section>

@@ -4,7 +4,7 @@ function Rooms() {
   return (
     <section className="rooms mt-[120px] w-auto h-[670px] bg-[#fcf8f3]">
       <div className="container max-w-[1440px] m-auto">
-        <div className="rooms_wrapper  flex flex-col sm:flex-row md:gap-[40px] justify-between items-center">
+        <div className="rooms_wrapper  flex flex-col sm:flex-row md:gap-[40px] justify-between items-center px-5">
           <div className="left">
             <h3 className="font-bold text-[20px] mt-[20px] md:text-[30px] pl-[10px] lg:text-[40px] text-[#3a3a3a]">
               50+ Beautiful rooms <br /> inspiration
@@ -13,7 +13,7 @@ function Rooms() {
               Our designer already made a lot of beautiful <br /> prototipe of
               rooms that inspire you
             </p>
-            <button className="w-[176px] h-[48px] bg-[#b88e2f] font-semibold text-[16px] leading-normal text-[#fff] mt-[24px]">
+            <button className="w-[176px] h-[48px] bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300 font-semibold text-[16px] cursor-pointer leading-normal text-white mt-[24px] rounded-lg">
               Explore More
             </button>
           </div>

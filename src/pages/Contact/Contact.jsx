@@ -111,7 +111,7 @@ function Contact() {
                     className="border border-[#9f9f9f] rounded-[10px] w-full h-[120px] md:h-[150px] p-4 font-normal text-[14px] md:text-[16px] text-[#333]"
                     placeholder="Message"
                   />
-                  <button className="border border-[#b88e2f] rounded-[5px] w-[160px] md:w-[200px] h-[45px] md:h-[55px] bg-[#b88e2f] font-medium text-[14px] md:text-[16px] text-[#fff] self-start">
+                  <button className="border border-[#b88e2f] cursor-pointer hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  rounded-[5px] w-[160px] md:w-[200px] h-[45px] md:h-[55px] bg-[#b88e2f] font-medium text-[14px] md:text-[16px] text-[#fff] self-start">
                     Submit
                   </button>
                 </form>
