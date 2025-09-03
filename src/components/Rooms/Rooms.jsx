@@ -18,10 +18,18 @@ function Rooms() {
             </button>
           </div>
 
-          <div className="right flex flex-col sm:flex-row md:gap-[20px] gap-[24px] mt-[24px]">
-            <img className="w-full sm:w-1/2 h-auto" src="/rooms.png" alt="" />{" "}
+          <div className="right    flex flex-col sm:flex-row md:gap-[30px] gap-[24px] mt-[24px]">
+            <img
+              className="w-full  cursor-pointer transition-transform duration-500 hover:scale-110 sm:w-1/2 h-auto"
+              src="/rooms.png"
+              alt=""
+            />{" "}
             <div className="flex items-center sm:w-1/2">
-              <img className="w-full h-auto" src="/rooms_two.png" alt="" />
+              <img
+                className="w-full cursor-pointer transition-transform duration-500 hover:scale-110 h-auto"
+                src="/rooms_two.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
