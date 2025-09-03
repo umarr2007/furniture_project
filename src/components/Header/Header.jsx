@@ -12,22 +12,71 @@ function Header() {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const [opened, setOpened] = useState(false);
+  const [activeIcon, setActiveIcon] = useState(null);
+
+  const iconStyle = (iconName) => ({
+    fontSize: 48,
+    color: activeIcon === iconName ? "#1976d2" : "#757575",
+    backgroundColor: activeIcon === iconName ? "#e3f2fd" : "transparent",
+    padding: "12px",
+    borderRadius: "50%",
+    cursor: "pointer",
+    transition: "all 0.3s ease",
+    transform: activeIcon === iconName ? "scale(0.95)" : "scale(1)",
+    boxShadow: activeIcon === iconName ? "0 2px 4px rgba(0,0,0,0.2)" : "none",
+    margin: "0 10px",
+    "&:hover": {
+      color: "#1565c0",
+      backgroundColor: "#f5f5f5",
+      transform: "scale(1.1)",
+      boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+    },
+  });
+
+  const handleMouseEnter = (iconName) => {
+    setActiveIcon(iconName);
+  };
+
+  const handleMouseLeave = () => {
+    setActiveIcon(null);
+  };
+
+  const handleMouseDown = (iconName) => {
+    setActiveIcon(iconName);
+  };
+
+  const handleMouseUp = () => {
+    setActiveIcon(null);
+  };
   return (
     <header className="header bg-[#fff] w-auto h-[100px]">
       <div className="container max-w-[1440px] m-auto mt-[40px]">
         <div className="header_wrapper flex justify-between items-center  ">
           <div className="logo">
-            <img className="cursor-pointer" onClick={() => navigate("/")} src="/furniro.png" alt="" />
+            <img
+              className="cursor-pointer"
+              onClick={() => navigate("/")}
+              src="/furniro.png"
+              alt=""
+            />
           </div>
           <div className="header_link  hidden sm:flex lg:gap-[70px] md:flex gap-[20px]   ">
-            <Link to={"/"} className="font-medium hover:text-[#fca311] text-[16px] text-[#000]">
+            <Link
+              to={"/"}
+              className="font-medium hover:text-[#fca311] text-[16px] text-[#000]"
+            >
               Home
             </Link>
-            <Link to={"/shop"} className="font-medium hover:text-[#fca311] text-[16px] text-[#000]">
+            <Link
+              to={"/shop"}
+              className="font-medium hover:text-[#fca311] text-[16px] text-[#000]"
+            >
               Shop
             </Link>
 
-            <Link className="font-medium hover:text-[#fca311] text-[16px] text-[#000]">About</Link>
+            <Link className="font-medium hover:text-[#fca311] text-[16px] text-[#000]">
+              About
+            </Link>
 
             <Link
               to={"/contact"}
@@ -72,11 +121,38 @@ function Header() {
             </div>
           )}
 
-          <div className="header_icons hidden sm:flex lg:gap-[44px] md:gap-[29px]">
-            <PersonIcon />
-            <SearchIcon />
-            <FavoriteBorderIcon />
-            <ShoppingBagIcon onClick={() => setOpened(true)} />
+          <div className="header_icons   hidden sm:flex ">
+            <PersonIcon
+              style={iconStyle("person")}
+              onMouseEnter={() => handleMouseEnter("person")}
+              onMouseLeave={handleMouseLeave}
+              onMouseDown={() => handleMouseDown("person")}
+              onMouseUp={handleMouseUp}
+            />
+            <SearchIcon
+              style={iconStyle("search")}
+              onMouseEnter={() => handleMouseEnter("search")}
+              onMouseLeave={handleMouseLeave}
+              onMouseDown={() => handleMouseDown("search")}
+              onMouseUp={handleMouseUp}
+            />
+
+            <FavoriteBorderIcon
+              style={iconStyle("favorite")}
+              onMouseEnter={() => handleMouseEnter("favorite")}
+              onMouseLeave={handleMouseLeave}
+              onMouseDown={() => handleMouseDown("favorite")}
+              onMouseUp={handleMouseUp}
+            />
+
+            <ShoppingBagIcon
+              style={iconStyle("shopping")}
+              onMouseEnter={() => handleMouseEnter("shopping")}
+              onMouseLeave={handleMouseLeave}
+              onMouseDown={() => handleMouseDown("shopping")}
+              onMouseUp={handleMouseUp}
+              onClick={() => setOpened(true)}
+            />
           </div>
         </div>
       </div>

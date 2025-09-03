@@ -93,22 +93,22 @@ function Contact() {
               <div className="contact_inputs flex-1 w-full mt-[10px] pr-6">
                 <form className="form flex flex-col justify-center gap-[20px] md:gap-[30px] w-full">
                   <input
-                    className="border border-[#9f9f9f] rounded-[10px] w-full h-[55px] md:h-[65px] px-4 font-normal text-[14px] md:text-[16px] text-[#333]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-[#fca311] focus:border-transparent transition-all duration-200 outline-none text-gray-800 placeholder-gray-400"
                     type="text"
                     placeholder="Name"
                   />
                   <input
-                    className="border border-[#9f9f9f] rounded-[10px] w-full h-[55px] md:h-[65px] px-4 font-normal text-[14px] md:text-[16px] text-[#333]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-[#fca311] focus:border-transparent transition-all duration-200 outline-none text-gray-800 placeholder-gray-400"
                     type="email"
                     placeholder="Email"
                   />
                   <input
-                    className="border border-[#9f9f9f] rounded-[10px] w-full h-[55px] md:h-[65px] px-4 font-normal text-[14px] md:text-[16px] text-[#333]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-[#fca311] focus:border-transparent transition-all duration-200 outline-none text-gray-800 placeholder-gray-400"
                     type="text"
                     placeholder="Subject"
                   />
                   <textarea
-                    className="border border-[#9f9f9f] rounded-[10px] w-full h-[120px] md:h-[150px] p-4 font-normal text-[14px] md:text-[16px] text-[#333]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-[#fca311] focus:border-transparent transition-all duration-200 outline-none text-gray-800 placeholder-gray-400"
                     placeholder="Message"
                   />
                   <button className="border border-[#b88e2f] cursor-pointer hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  rounded-[5px] w-[160px] md:w-[200px] h-[45px] md:h-[55px] bg-[#b88e2f] font-medium text-[14px] md:text-[16px] text-[#fff] self-start">
@@ -119,10 +119,9 @@ function Contact() {
             </div>
           </div>
 
+          <AboutService />
 
-          <AboutService/>
-
-          <Footer/>
+          <Footer />
         </section>
       </div>
     </>

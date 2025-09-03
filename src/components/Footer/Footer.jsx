@@ -19,16 +19,16 @@ function Footer() {
         <div>
           <h3 className="text-gray-400 text-sm uppercase mb-4">Links</h3>
           <ul className="space-y-2 flex flex-col">
-            <Link to="/" className="font-medium text-black cursor-pointer">
+            <Link to="/" className="font-medium hover:text-[#fca311] active:text-[#92651d]   text-black cursor-pointer">
               Home
             </Link>
-            <Link to="/shop" className="font-medium text-black cursor-pointer">
+            <Link to="/shop" className="font-medium hover:text-[#fca311] active:text-[#92651d] text-black cursor-pointer">
               Shop
             </Link>
-            <Link className="font-medium text-black cursor-pointer">About</Link>
+            <Link className="font-medium text-black hover:text-[#fca311] active:text-[#92651d] cursor-pointer">About</Link>
             <Link
               to="/contact"
-              className="font-medium text-black cursor-pointer"
+              className="font-medium hover:text-[#fca311] active:text-[#92651d] text-black cursor-pointer"
             >
               Contact
             </Link>

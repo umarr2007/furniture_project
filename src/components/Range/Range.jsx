@@ -13,22 +13,33 @@ function Range() {
           </p>
         </div>
         <div className="range_wrapper grid lg:grid-cols-3 md:grid-cols-1 gap-[90px] place-items-center mt-[63px] ">
-          <div className="range_box max-w-[381px] h-[480px] w-full  ">
-            <img src="/card.svg" alt="" />
+          <div className="range_box cursor-pointer max-w-[381px] h-[480px] w-full ">
+            <img
+              src="/card.svg"
+              alt=""
+              className="transition-transform duration-500 hover:scale-110"
+            />
             <p className="font-semibold text-[24px] text-center text-[#333] mt-[30px]">
               Dining
             </p>
           </div>
-
-          <div className="range_box max-w-[381px] h-[480px] w-full">
-            <img src="/card.svg" alt="" />
+          <div className="range_box cursor-pointer max-w-[381px] h-[480px] w-full ">
+            <img
+              src="/card.svg"
+              alt=""
+              className="transition-transform duration-500 hover:scale-110"
+            />
             <p className="font-semibold text-[24px] text-center text-[#333] mt-[30px]">
               Living{" "}
             </p>
           </div>
 
-          <div className="range_box max-w-[381px] h-[480px]">
-            <img src="/card.svg" alt="" />
+          <div className="range_box cursor-pointer max-w-[381px] h-[480px] w-full ">
+            <img
+              src="/card.svg"
+              alt=""
+              className="transition-transform duration-500 hover:scale-110"
+            />
             <p className="font-semibold text-[24px] text-center text-[#333] mt-[30px]">
               Bedroom
             </p>

@@ -18,10 +18,10 @@ function Product() {
         <h3 className="font-bold text-[40px] text-center text-[#3a3a3a]">
           Our Products
         </h3>
-        <div className="product_wrapper grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 place-items-center  gap-[35px] mt-[35px]">
+        <div className="product_wrapper grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 place-items-center  gap-[45px] mt-[35px]">
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box transition-transform duration-500 hover:scale-118 cursor-pointer  relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
@@ -53,7 +53,7 @@ function Product() {
 
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
@@ -85,7 +85,7 @@ function Product() {
 
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
@@ -117,7 +117,7 @@ function Product() {
 
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
@@ -149,7 +149,7 @@ function Product() {
 
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
@@ -181,7 +181,7 @@ function Product() {
 
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
@@ -213,7 +213,7 @@ function Product() {
 
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
@@ -245,7 +245,7 @@ function Product() {
 
           <div
             onClick={handlePage}
-            className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
+            className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden"
           >
             <img className="w-[285px] h-[301px]" src="/box.png" alt="" />
 
