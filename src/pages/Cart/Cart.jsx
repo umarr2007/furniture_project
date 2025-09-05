@@ -103,7 +103,7 @@ function Cart() {
             </div>
             <button
               onClick={() => navigate("/checkout")}
-              className="border-[1px] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  mt-[45px] border-[#000] rounded-[15px] w-full h-[58px] font-normal text-[20px] text-[#000]"
+              className="border-[1px] border-[#000] cursor-pointer rounded-[15px] w-full h-[58px] mt-[45px] text-[20px] font-medium text-[#000] transition-all duration-300 hover:bg-[#a47d28] hover:text-[#fff] hover:border-[#a47d28] active:bg-[#8c6a22] active:border-[#8c6a22] active:text-white"
             >
               Checkout
             </button>
@@ -111,7 +111,7 @@ function Cart() {
         </div>
         <button
           onClick={() => navigate("/")}
-          className="px-[72px] py-[25px] w-[200px] rounded-[12px]  mt-[46px] h-[74px] bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  font-bold text-[16px] uppercase text-[#fff]"
+          className="px-[72px] py-[25px] w-[200px] rounded-[12px] cursor-pointer  mt-[46px] h-[74px] bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  font-bold text-[16px] uppercase text-[#fff]"
         >
           Back
         </button>

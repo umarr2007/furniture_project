@@ -13,12 +13,12 @@ function Rooms() {
               Our designer already made a lot of beautiful <br /> prototipe of
               rooms that inspire you
             </p>
-            <button className="w-[176px] h-[48px] bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300 font-semibold text-[16px] cursor-pointer leading-normal text-white mt-[24px] rounded-lg">
+            <button className="w-[176px] ml-[10px] h-[48px] bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300 font-semibold text-[16px] cursor-pointer leading-normal text-white mt-[24px] rounded-lg">
               Explore More
             </button>
           </div>
 
-          <div className="right    flex flex-col sm:flex-row md:gap-[30px] gap-[24px] mt-[24px]">
+          <div className="right flex flex-col sm:flex-row md:gap-[30px] gap-[24px] mt-[24px]">
             <img
               className="w-full  cursor-pointer transition-transform duration-500 hover:scale-110 sm:w-1/2 h-auto"
               src="/rooms.png"

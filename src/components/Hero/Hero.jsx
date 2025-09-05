@@ -10,7 +10,7 @@ function Hero() {
               <h2 className="font-semibold text-[16px] md:text-[13px] tracking-[0.19em] text-[#333]">
                 New Arrival
               </h2>
-              <h1 className="font-bold text-[20px] lg:text-[52px] md:text-[40px] text-[#b88e2f]">
+              <h1 className="font-[700] text-[20px] lg:text-[52px] md:text-[40px] text-[#b88e2f]">
                 Discover Our New Collection
               </h1>
               <p className="font-medium  text-[14px] lg:text-[18px] md:text-[16px] leading-[1.33333] text-[#333] mt-[17px]">

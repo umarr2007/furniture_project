@@ -50,13 +50,13 @@ function Shop() {
       </section>
 
       <div className="shop_box   w-full h-auto bg-[#f9f1e7] rounded-md">
-        <div className="shop_wrapper pb-[12px] flex flex-col  md:flex-row gap-[30px]   justify-between items-center pt-[20px] ">
-          <div className=" left flex gap-[20px] items-center pl-[9px] ">
+        <div className="shop_wrapper pb-[12px] flex flex-col   md:flex-row gap-[30px]   justify-between items-center pt-[20px] ">
+          <div className=" left flex gap-[20px] items-center pl-[25px] ">
             <img src="/filter.svg" alt="" />
             <p className="font-normal text-[20px] text-[#000]">Filter</p>
             <img src="/double.svg" alt="" />
             <img src="/thing.svg" alt="" />
-            <h3 className="font-normal text-[12px] md:text-[14px] lg:text-[16px] text-[#000]">
+            <h3 className="font-normal text-[12px] md:text-[14px] lg:text-[13px] text-[#000]">
               Showing 1–16 of 32 results
             </h3>
           </div>
@@ -72,7 +72,7 @@ function Shop() {
               <h5 className="font-normal text-[12px] md:text-[16px] lg:text-[20px] text-[#000]">
                 Short by
               </h5>
-              <button className="w-[150px] h-[45px] md:w-[165px] lg:w-[188px]  bg-[#fff]">
+              <button className="max-w-[150px] w-full h-[45px] md:w-[165px] lg:w-[188px]  bg-[#fff]">
                 Default
               </button>
             </div>
@@ -86,7 +86,7 @@ function Shop() {
           <Grid container spacing={2} justifyContent="center">
             {selectedProducts.map((product) => (
               <Grid xs={4} sm={6} md={3} key={product.id}>
-                <div className="product_box relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden">
+                <div className="product_box cursor-pointer transition-transform duration-500 hover:scale-110 relative max-w-[285px] h-[446px] w-full bg-[#f4f5f7] group overflow-hidden">
                   <img
                     className="w-[285px] h-[301px]"
                     src={product.image}

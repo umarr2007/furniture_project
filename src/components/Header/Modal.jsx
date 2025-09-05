@@ -141,19 +141,20 @@ function Modal({ open, handleClose }) {
         >
           <button
             onClick={() => navigate("/cart")}
-            className="border cursor-pointer border-black rounded-full px-4 py-2 text-sm"
+            className="border border-[#b88e2f] cursor-pointer rounded-full px-5 py-2 text-sm font-medium text-[#b88e2f] transition-all duration-300 hover:bg-[#b88e2f] hover:text-white hover:shadow-lg hover:border-[#b88e2f]"
           >
             Cart
           </button>
+
           <button
             onClick={() => navigate("/checkout")}
-            className="border cursor-pointer border-black rounded-full px-4 py-2 text-sm"
+            className="border border-[#b88e2f] cursor-pointer rounded-full px-5 py-2 text-sm font-medium text-[#b88e2f] transition-all duration-300 hover:bg-[#b88e2f] hover:text-white hover:shadow-lg hover:border-[#b88e2f]"
           >
             Checkout
           </button>
           <button
             onClick={() => navigate("/comparasion")}
-            className="border cursor-pointer border-black rounded-full px-4 py-2 text-sm"
+            className="border border-[#b88e2f] cursor-pointer rounded-full px-5 py-2 text-sm font-medium text-[#b88e2f] transition-all duration-300 hover:bg-[#b88e2f] hover:text-white hover:shadow-lg hover:border-[#b88e2f]"
           >
             Comparison
           </button>

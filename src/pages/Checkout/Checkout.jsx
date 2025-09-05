@@ -39,14 +39,22 @@ function Checkout() {
                 <div className="inputs_left mx-3 flex flex-col">
                   <label className="mb-2">First Name</label>
                   <input
-                    className="border-[1px] border-[#9f9f9f] rounded-[10px] max-w-[211px] w-full h-[75px]"
+                    className="border border-[#ddd] rounded-[10px] max-w-[211px] h-[75px] w-full px-4 
+                  text-[16px] text-[#333] placeholder:text-[#aaa] 
+                  shadow-md focus:shadow-lg 
+                  focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                  outline-none transition-all duration-300"
                     type="text"
                   />
                 </div>
                 <div className="inputs_right mx-3 flex flex-col">
                   <label className="mb-2 ">Last Name</label>
                   <input
-                    className="border-[1px]  border-[#9f9f9f] rounded-[10px] max-w-[211px] w-full h-[75px]"
+                    className="border border-[#ddd] rounded-[10px] max-w-[200px] h-[75px] w-full px-4 
+    text-[16px] text-[#333] placeholder:text-[#aaa] 
+    shadow-md focus:shadow-lg 
+    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+    outline-none transition-all duration-300"
                     type="text"
                   />
                 </div>
@@ -60,7 +68,11 @@ function Checkout() {
                   </label>
                   <input
                     type="text"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[55px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[60px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
 
@@ -71,7 +83,11 @@ function Checkout() {
                   </label>
                   <input
                     type="text"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[55px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[60px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
 
@@ -82,7 +98,11 @@ function Checkout() {
                   </label>
                   <input
                     type="text"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[55px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[60px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
 
@@ -93,7 +113,11 @@ function Checkout() {
                   </label>
                   <input
                     type="text"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[55px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[60px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
 
@@ -104,7 +128,11 @@ function Checkout() {
                   </label>
                   <input
                     type="text"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[55px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[60px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
 
@@ -115,7 +143,11 @@ function Checkout() {
                   </label>
                   <input
                     type="text"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[55px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[60px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
 
@@ -126,7 +158,11 @@ function Checkout() {
                   </label>
                   <input
                     type="email"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[55px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[60px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
 
@@ -135,7 +171,11 @@ function Checkout() {
                   <input
                     type="text"
                     placeholder="Additional Information"
-                    className="border border-[#9f9f9f] rounded-[10px] w-full max-w-[453px] h-[75px] px-3"
+                    className="border border-[#ddd] rounded-[10px] w-full max-w-[460px] h-[75px] px-4 
+                    text-[16px] text-[#333] placeholder:text-[#aaa] 
+                    shadow-md focus:shadow-lg 
+                    focus:border-[#b88e2f] focus:ring-2 focus:ring-[#b88e2f]/40 
+                    outline-none transition-all duration-300"
                   />
                 </div>
               </div>
@@ -209,7 +249,7 @@ function Checkout() {
                   <span className="font-[600]">privacy policy.</span>
                 </p>
                 <div className="checkout_button flex justify-center items-center pt-[33px]">
-                  <button className="border-[1px] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300 border-[#b88e2f] rounded-[15px] w-[318px] h-[64px]">
+                  <button className="border-[1px]  transition-all duration-300 hover:bg-[#a47d28] hover:text-[#fff] cursor-pointer hover:border-[#a47d28] active:bg-[#8c6a22] active:border-[#8c6a22] active:text-white border-[#b88e2f] rounded-[15px] w-[318px] h-[64px]">
                     Place Order
                   </button>
                 </div>
@@ -218,7 +258,7 @@ function Checkout() {
           </div>
           <button
             onClick={() => navigate(-1)}
-            className="bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  rounded-[15px] cursor-pointer w-[318px] h-[64px] text-[#fff] text-[24px] mt-[30px] ml-[20px]"
+            className="bg-[#b88e2f] hover:bg-[#a47d28] active:bg-[#8c6a22] transition-colors duration-300  rounded-[15px] cursor-pointer max-w-[200px] h-[64px] w-full text-[#fff] text-[24px] mt-[70px] ml-[30px] "
           >
             Back
           </button>
